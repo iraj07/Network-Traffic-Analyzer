@@ -52,7 +52,7 @@ Network-Traffic-Analyzer/
 
 Clone the repository and install the required libraries:
 
-```bash
+bash
 git clone [https://github.com/iraj07/Network-Traffic-Analyzer.git](https://github.com/iraj07/Network-Traffic-Analyzer.git)
 cd Network-Traffic-Analyzer
 pip install -r requirements.txt
@@ -63,19 +63,19 @@ pip install -r requirements.txt
 
 To start the analysis engine and process network data:
 
-```bash
+bash
 python main.py
 
-```
+
 
 To launch the monitoring dashboard:
 
-```bash
+bash
 streamlit run app.py
 
-```
 
----
+
+
 
 ## 📊 Evaluation & Results
 
