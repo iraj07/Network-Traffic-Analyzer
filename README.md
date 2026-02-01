@@ -1,5 +1,15 @@
 ```markdown
-# Network Traffic Anomaly Detector (NTAD) 🛡️
+# 🛡️ Network Traffic Anomaly Detector (NTAD)
+
+### 📝 Project Description
+This project is an **AI-powered Security System** designed to protect networks. It works by capturing and analyzing network traffic in real-time. Using **Machine Learning**, the system "learns" the pattern of normal traffic and can instantly detect suspicious activities or cyber-attacks (like DDoS or Port Scanning) that deviate from this norm.
+
+**How it works:** 1. It monitors the network flow.
+2. It extracts key features from data packets.
+3. It uses a trained model to classify the traffic as **Safe** or **Attack**.
+4. It alerts the admin through a visual dashboard.
+
+---
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/AI-Machine%20Learning-orange)
@@ -33,12 +43,10 @@
 Network-Traffic-Analyzer/
 ├── data/                  # Dataset files (e.g., CIC-IDS2017)
 ├── notebooks/             # Jupyter Notebooks for EDA & Training
-├── src/                   # Source code
-│   ├── preprocess.py      # Data cleaning script
-│   ├── feature_eng.py     # Feature extraction logic
-│   └── model.py           # ML Model definitions
-├── models/                # Saved trained models (.pkl)
 ├── app.py                 # Dashboard application (Streamlit)
+├── main.py                # Main Entry Point
+├── file_module.py         # Data handling logic
+├── live_module.py         # Real-time sniffing logic
 └── requirements.txt       # Project dependencies
 
 ```
@@ -52,18 +60,18 @@ Network-Traffic-Analyzer/
 Clone the repository and install the required libraries:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/NETWORK-TRAFFIC-ANALYZER.git](https://github.com/YOUR_USERNAME/NETWORK-TRAFFIC-ANALYZER.git)
-cd NETWORK-TRAFFIC-ANALYZER
+git clone [https://github.com/iraj07/Network-Traffic-Analyzer.git](https://github.com/iraj07/Network-Traffic-Analyzer.git)
+cd Network-Traffic-Analyzer
 pip install -r requirements.txt
 
 ```
 
 ### 2. Running the Project
 
-To preprocess data and train the model:
+To start the analysis engine and process network data:
 
 ```bash
-python src/train_model.py
+python main.py
 
 ```
 
@@ -90,8 +98,11 @@ streamlit run app.py
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://www.google.com/search?q=https://github.com/YOUR_USERNAME/NETWORK-TRAFFIC-ANALYZER/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
----
+```
 
 
+**کار گیت‌هاب تمام شد! آیا می‌خواهی با هم بررسی کنیم که چطور باید از دیتای واقعی خروجی بگیری تا آن جدول آخر (Results) را با اعداد واقعی پر کنی؟**
+
+```
