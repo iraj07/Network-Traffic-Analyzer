@@ -1,4 +1,4 @@
-```markdown
+
 # 🛡️ Network Traffic Anomaly Detector (NTAD)
 
 ### 📝 Project Description
@@ -49,9 +49,7 @@ Network-Traffic-Analyzer/
 ├── live_module.py         # Real-time sniffing logic
 └── requirements.txt       # Project dependencies
 
-```
 
----
 
 ## 🚀 Getting Started
 
