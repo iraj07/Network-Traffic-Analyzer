@@ -4,11 +4,6 @@
 ### 📝 Project Description
 This project is an **AI-powered Security System** designed to protect networks. It works by capturing and analyzing network traffic in real-time. Using **Machine Learning**, the system "learns" the pattern of normal traffic and can instantly detect suspicious activities or cyber-attacks (like DDoS or Port Scanning) that deviate from this norm.
 
-**How it works:** 1. It monitors the network flow.
-2. It extracts key features from data packets.
-3. It uses a trained model to classify the traffic as **Safe** or **Attack**.
-4. It alerts the admin through a visual dashboard.
-
 ---
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
