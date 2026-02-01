@@ -44,7 +44,7 @@ Network-Traffic-Analyzer/
 ├── live_module.py         # Real-time sniffing logic
 └── requirements.txt       # Project dependencies
 
-
+```
 
 ## 🚀 Getting Started
 
@@ -57,7 +57,7 @@ git clone [https://github.com/iraj07/Network-Traffic-Analyzer.git](https://githu
 cd Network-Traffic-Analyzer
 pip install -r requirements.txt
 
-```
+
 
 ### 2. Running the Project
 
@@ -93,9 +93,3 @@ streamlit run app.py
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-```
-
-
-**کار گیت‌هاب تمام شد! آیا می‌خواهی با هم بررسی کنیم که چطور باید از دیتای واقعی خروجی بگیری تا آن جدول آخر (Results) را با اعداد واقعی پر کنی؟**
-
-```
